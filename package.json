@@ -1,9 +1,10 @@
 {
   "name": "bee-watch-model",
-  "version": "1.0.0",
-  "description": "Models a beehive and it's einvironment",
+  "version": "1.0.1",
+  "description": "Models a beehive and it's environment",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
