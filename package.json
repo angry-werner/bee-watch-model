@@ -1,0 +1,24 @@
+{
+  "name": "bee-watch-model",
+  "version": "1.0.0",
+  "description": "Models a beehive and it's einvironment",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angry-werner/bee-watch-model.git"
+  },
+  "keywords": ["bee", "hive", "beekeeper"],
+  "author": "angry-werner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angry-werner/bee-watch-model/issues"
+  },
+  "homepage": "https://github.com/angry-werner/bee-watch-model#readme",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
+}
