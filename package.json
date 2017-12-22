@@ -12,14 +12,18 @@
     "type": "git",
     "url": "git+https://github.com/angry-werner/bee-watch-model.git"
   },
-  "keywords": ["bee", "hive", "beekeeper"],
+  "keywords": [
+    "bee",
+    "hive",
+    "beekeeper"
+  ],
   "author": "angry-werner",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/angry-werner/bee-watch-model/issues"
   },
   "homepage": "https://github.com/angry-werner/bee-watch-model#readme",
   "devDependencies": {
-    "typescript": "^2.6.1"
+    "typescript": "^2.6.2"
   }
 }
