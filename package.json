@@ -1,6 +1,6 @@
 {
   "name": "bee-watch-model",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Models a beehive and it's environment",
   "main": "index.js",
   "scripts": {
