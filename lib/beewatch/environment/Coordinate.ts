@@ -1,3 +1,4 @@
+/// <reference path="Location.ts" />
 namespace beewatch.environment {
     export class Coordinate {
         constructor(readonly latitude: number, readonly longitude: number) {}
