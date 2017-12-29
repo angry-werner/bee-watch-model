@@ -3,7 +3,7 @@ namespace beewatch.environment {
     import Colony = beewatch.bees.Colony;
 
     export interface BeeHive {
-
+        readonly colony: Colony;
     }
 
     export class Warre implements BeeHive {

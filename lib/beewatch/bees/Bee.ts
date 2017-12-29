@@ -1,17 +1,18 @@
 namespace beewatch.bees {
     export interface Bee {
-
+        readonly subspecies: Subspecies;
     }
 
-    export class Worker implements Bee {
-
+    export class Species implements Bee {
+        constructor(readonly subspecies: Subspecies) {}
     }
 
-    export class Drone implements Bee {
-
+    export class Worker extends Species {
     }
 
-    export class Queen implements Bee {
+    export class Drone extends Species {
+    }
 
+    export class Queen extends Species {
     }
 }
