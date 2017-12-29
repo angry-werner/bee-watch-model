@@ -1,8 +1,6 @@
-/// <reference path="Bee.ts" />
-namespace beewatch.bees {
-    import Queen = beewatch.bees.Queen;
+import { Queen } from './Bee';
 
-    export class Colony {
-        constructor(readonly queen: Queen) {}
+export class Colony {
+    constructor(readonly queen: Queen) {
     }
 }

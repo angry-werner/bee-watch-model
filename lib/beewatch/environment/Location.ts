@@ -1,35 +1,35 @@
-namespace beewatch.environment {
-    export class Location {
-        private readonly beeHives: Set<BeeHive> = new Set();
+import { BeeHive } from './BeeHive';
+import { Coordinate } from './Coordinate';
 
-        constructor(
-            private readonly name: string,
-            private readonly coordinate: Coordinate,
-            private readonly description: string) {
-        }
+export class Location {
+    private readonly beeHives: Set<BeeHive> = new Set();
 
-        getName(): string {
-            return this.name;
-        }
+    public constructor(private readonly name: string,
+                       private readonly coordinate: Coordinate,
+                       private readonly description: string) {
+    }
 
-        getCoordinate(): Coordinate {
-            return this.coordinate;
-        }
+    public getName(): string {
+        return this.name;
+    }
 
-        getdescription(): string {
-            return this.description;
-        }
+    public getCoordinate(): Coordinate {
+        return this.coordinate;
+    }
 
-        getBeeHives(): Set<BeeHive> {
-            return this.beeHives;
-        }
+    public getdescription(): string {
+        return this.description;
+    }
 
-        addBeeHive(beeHive: BeeHive) {
-            this.beeHives.add(beeHive);
-        }
+    public getBeeHives(): Set<BeeHive> {
+        return this.beeHives;
+    }
 
-        removeBeeHive(beeHive: BeeHive) {
-            this.beeHives.delete(beeHive);
-        }
+    public addBeeHive(beeHive: BeeHive) {
+        this.beeHives.add(beeHive);
+    }
+
+    public removeBeeHive(beeHive: BeeHive) {
+        this.beeHives.delete(beeHive);
     }
 }
