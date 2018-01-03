@@ -2,7 +2,7 @@
   "name": "bee-watch-model",
   "version": "1.0.7",
   "description": "Models a beehive and it's environment",
-  "main": "index.js",
+  "main": "dist/index.ts",
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
