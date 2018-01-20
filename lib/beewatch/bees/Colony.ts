@@ -1,4 +1,4 @@
-import { Queen } from './Bee';
+import { Queen } from './Queen';
 
 export class Colony {
     constructor(readonly queen: Queen) {
