@@ -40,6 +40,7 @@ jobs:
       # Release and deploy
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run: git config --global user.email "werner.koch@bluewin.ch"
+      - run: git config --global user.name "Werner Koch"
       - run: npm version patch
       - run: git push --follow-tags
       - run: npm publish
