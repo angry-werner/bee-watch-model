@@ -1,6 +1,6 @@
 {
   "name": "bee-watch-model",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "Models a beehive and it's environment",
   "main": "dist/index.ts",
   "scripts": {
