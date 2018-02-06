@@ -1,3 +1,6 @@
-lib/
+.circleci
 .idea/
 dist/**/*.spec.*
+lib/
+tsconfig.json
+tslint.json

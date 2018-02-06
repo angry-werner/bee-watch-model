@@ -33,8 +33,13 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
+      # Build
       - run: npm run build
-
       - run: npm run test
+
+      # Release and deploy
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run: npm version patch
+      - run: git push --follow-tags
+      - run: npm publish
 
